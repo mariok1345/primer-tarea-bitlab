@@ -1,6 +1,7 @@
 *{
 padding: 0;
 margin: 0;
+box-sizing: border-box;
 }
 
 
@@ -146,4 +147,36 @@ h4{
 a{
   text-decoration: none;
   color: #ffffff;
+}
+/* responsive */
+@media screen and (max-width:1360px){
+
+  .art2{
+    background-color:#a6bfcc;
+    height:80vh;
+    display: grid;
+    grid-template-columns: 17% 17% 17%;
+    grid-template-rows:56%;
+    justify-content: center;
+    align-content: center;
+    grid-gap:100px;
+    margin-top: 25px;
+  }
+  h4{
+    padding-top: 5px;
+    font-size: 20px;
+  }
+  .p2{
+    padding-top:40px;
+    margin:5px;
+  }
+  .p3{
+    padding-top:40px;
+    margin: 5px;
+  }
+  .p4{
+    padding-top:40px;
+    margin: 5px;
+  }
+
 }
